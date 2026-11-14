@@ -1,0 +1,1117 @@
+*{
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: calibri;
+  margin: 0px;
+ 
+ 
+}
+html{
+  scroll-behavior: smooth;
+}
+
+header{
+  background: linear-gradient(to right, #050a37, #1a1a1a);
+  color: rgb(227, 224, 233);
+ align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding:0.5rem 2rem;
+  position: fixed;
+  width: 100%;
+
+}
+.churchlogo{
+  max-width: 100px;
+  width:100%;
+  height: auto;
+  border-radius: 50%;
+}
+.logoname h2{
+  font-size: 18px; 
+}
+.topnav{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 10px;
+}
+
+  .topnav.active{
+    display: none;
+    position: fixed;
+    top: 70px; left: 0; right: 0;
+    background: rgba(13,13,13,0.98);
+    padding: 30px;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 999;
+    border-bottom: 1px solid rgba(201,168,76,0.2);
+  }
+.topnav a{
+  color: rgb(227, 224, 233);
+  text-decoration: none;
+  font-size: 18px;
+}
+.topnav a.active{
+  color: #25D366;
+  font-weight: bold;
+}
+.whatsapp{
+  color: rgb(227, 224, 233);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #11612f;
+   padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.8s ease;
+
+}
+.whatsapp img, .phone img{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.phone{
+  color: rgb(227, 224, 233);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+    background-color: #070452;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+    transition: all 0.8s ease;
+
+}
+.whatsappphone{
+  display: flex;
+  gap: 1rem;
+}
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.hamburger span {
+    width: 25px; height: 2px;
+    background: white;
+    transition: all 0.3s;
+}
+
+.hero{
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/bg.jpg') no-repeat center center/cover ;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+  color: white;
+  text-align: left;
+  color:  white;   
+  
+}
+.hero2{ background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4   )), url('assets/women\ ministry.jpg') no-repeat center center/cover ;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+   color: white;
+  text-align: left;
+  color:  white;
+
+}
+.hero3{
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4   )), url('assets/youth\ ministry.jpg') no-repeat center center/cover ;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+   color: white;
+  text-align: left;
+  color:  white;
+
+}
+
+.hero, .hero2, .hero3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.herocontent h1{
+  margin-top:100px ;
+font-size: clamp(48px, 6vw, 50px);  margin-bottom: 1rem;
+
+}
+.heroside2, .herocontent p{
+  max-width: 20rem;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.heroside2 span{
+  color: #25D366;
+  font-weight: bold;
+}
+.herobuttons{
+  margin-top: 2rem;
+  display:flex;
+  gap: 2rem;
+}
+.watchlive, .section2content a{
+text-decoration: none;
+  color: rgb(13, 12, 61);
+  font-size: 18px;
+  background-color: #d7e93a;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.5s ease;
+  
+}
+.watchlive:hover, .learnmore:hover, .whatsapp:hover, .phone:hover{
+  background: none;
+  color: white;
+  border: 1px solid white;
+}
+.learnmore{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  background-color: #070452;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+    transition: all 0.5s ease;
+
+}
+.service{
+  display: flex;
+  align-items: top;
+  gap: 2rem;
+  padding: 2rem;
+}
+.service img{
+  max-width: 3rem;
+  width: 100%;
+  max-height: 3rem;
+
+}
+.section1{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+ width: 80%;
+  margin: 0 auto;
+  background-color: rgba(218, 226, 248, 0.3);
+ 
+}
+.servicecontent a{
+  text-decoration: none;
+  color: rgb(246, 14, 14);
+  font-weight: bold;
+ 
+}
+.servicecontent{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  
+}
+.servicecontent p{
+  font-size: 12px;
+}
+.section2{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 2rem;
+  margin-top: 6rem;
+
+  
+}
+.section2 img{
+  width: 17rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.section2content, .announcement{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 20rem;
+  width: 100%;
+ 
+}
+.announcement{
+   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('assets/blue\ bg2.jpg') no-repeat center center/cover ;
+ 
+  padding: 2rem;
+  color: white;
+  border-radius: 10px;
+}
+.announcement h3{
+  font-size: 1.5rem;
+  color: #25D366;
+} 
+.announcement p{
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.section3{
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+  padding: 4rem 2rem;
+  background-color: rgba(218, 226, 248, 0.3);
+}
+.ministries{
+  display: flex;
+  padding-top: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.childrenministry, .youthministry, .womenministry, .menministry, .musicministry{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-self: flex-start;
+  gap: 1rem;
+  max-width: 20rem;
+  width: 100%;
+}
+.ministries h3{
+  margin-top:10rem;
+  color: white;
+  font-size: 1.2rem;
+
+}
+.ministries p{
+  color: white;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+.ministries summary{
+  color: yellowgreen;
+  font-size: 1rem;
+  line-height: 1.8;
+  font-weight: bold;
+  cursor: pointer;
+}
+.childrenministry{
+  background:  url('assets/children\ ministries.jpg') no-repeat center center/cover ;
+}
+ .ministrycontent{
+   padding: 1rem;
+  background: linear-gradient(rgba(16, 12, 86, 0.3), rgba(20, 20, 21));
+    border-radius: 10px;
+    
+
+}
+.youthministry{
+   background:  url('assets/youth\ ministry.jpg') no-repeat center center/cover ;
+}
+.menministry{
+   background:  url('assets/men\ ministry.jpg') no-repeat center center/cover ;
+}
+.womenministry{
+   background:  url('assets/women\ ministry.jpg') no-repeat center center/cover ;
+}
+.musicministry{
+    background:  url('assets/choir\ ministry.jpg') no-repeat center center/cover ;
+ 
+}
+.section4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: rgba(218, 226, 248, 0.3);
+}
+
+.videocontainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 1rem auto;
+  width: 80%;
+  aspect-ratio: 16 / 9;
+
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  
+}
+
+.videocontainer iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+    border-radius: 10px;
+
+}
+.socialmedia{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.socialmedia img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.headpastor{
+  display: flex;
+color: rgb(227, 224, 233);
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.headpastor img{
+  max-width: 22rem;
+  width: 100%;
+  max-height: 30rem;
+  height: 100%;
+  border-radius: 10px
+}
+.headpastorcontent{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 30rem;
+  width: 100%;
+}
+.headpastorcontent h2{
+  color: #25D366;
+  margin-bottom: 1rem;
+}
+.headpastorcontent p{
+  text-align: justify;
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+.leadershipteamcard{
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 20rem;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.leadershipteamcard img{
+  max-width: 10rem;
+  width: 100%;
+  max-height: 15rem;
+  height: 100%;
+  border-radius: 10px
+}
+.section7{
+  display: flex;
+  gap: 1rem;
+}
+.section6{
+  display:flex;
+  flex-direction:column;
+  margin: 6rem auto;
+  align-items: center;
+  gap:2rem;
+}
+
+.sermoncard{
+  display:flex;
+  gap:2rem;
+  box-shadow: 0px 0px 4px 0px rgb(13, 12, 61);
+  padding:1rem;
+}
+.sermoncard p{
+  line-height: 2;
+}
+.sermoncard span{
+  font-weight: bold;
+  font-size:1.2rem;
+  color:rgb(14, 9, 105);
+}
+.sermoncard iframe{
+  width: 100%;
+  max-width: 14rem;
+  height:auto;
+  border-radius: 10px;
+  border:none;
+}
+.contactcard{
+  display:flex;
+  gap:1rem;
+}
+.contactcard img{
+max-width: 1rem;
+width:100%;
+}
+.contactaside{
+  display:flex;
+  flex-direction:column;
+  gap:2rem;
+}
+.contactsection{
+  margin: 5rem auto;
+  padding: 2rem;
+  width: 80%;
+  background-color: rgba(218, 226, 248, 0.3);
+  display:flex;
+  align-items: top;
+   border-radius: 10px;
+  margin-top: 10rem;
+  justify-content: space-around;
+}
+#contactform{
+  display:flex;
+  flex-direction:column;
+  gap:0.5rem;
+
+}
+.contact{
+   box-shadow: inset 0px 0px 4px 0px rgb(246, 246, 249);
+   background: linear-gradient(to right, #050a37, #1a1a1a);
+   color: white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+#contactform input{
+  max-width: 20rem;
+  width: 100%;
+  height: 2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgb(13, 12, 61);
+}
+#contactform textarea{
+   max-width: 20rem;
+   min-width: 20rem;
+  padding:1rem;
+  min-height:10rem;
+   max-height: 20rem;
+   border-radius: 5px;
+ 
+     border: 1px solid rgb(13, 12, 61);
+
+}
+#contactform button{
+  max-width: 20rem;
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  background-color: #137537;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+#contactform button:hover{
+  background-color: #114e28;
+  transition: all 0.5s ease;
+}
+.contactaside h3{
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(30, 31, 64);
+  margin-top: 2rem;
+}
+#contactform label{
+  margin-top: 1rem;
+  color: white;
+}
+.contactsection iframe{
+  width: 25rem;
+  max-width: 100%;
+  height: 20rem;
+  border-radius: 10px;
+}
+footer{
+  background-color: #050a37;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 5rem;
+}
+.gallery{
+  display: grid;
+  padding: 4rem;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 2rem;
+}
+.gallery img{
+  max-width: 15rem;
+  width: 100%;
+  max-height: 15rem;
+  height: 100%;
+  border-radius: 5px;
+}
+.events{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem;
+}
+.eventdate{
+  background: linear-gradient(to right, #050a37, #1a1a1a);
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 4rem;
+  height:5rem;
+  color: white;
+}
+.eventcard{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 40rem;
+
+}
+.eventcard details{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  cursor: pointer;
+  width:15rem;
+    color: #137537;
+align-items: flex-end;
+   
+}
+.eventcard summary{
+      box-shadow: 1px 1px 4px 0px rgb(13, 12, 61);
+padding: 0.5rem;
+border-radius: 5px;
+width: 6rem;
+font-size: 12px;
+}
+.eventcard details p{
+  line-height: 1.5;
+  text-align: justify;
+}
+
+@media (max-width:980px) {
+  .churchlogo{
+  max-width: 60px;
+  width:100%;
+ }
+ .logoname h2{
+  font-size: 12px; 
+}
+.topnav{
+  
+  gap: 1rem;
+ 
+}
+.topnav a{
+  
+  font-size: 14px;
+}
+
+.whatsapp{
+  
+  font-size: 13px;
+ 
+   padding: 0.5rem 0.6rem;
+ 
+
+}
+.whatsapp img, .phone img{
+  width: 14px;
+  height: 14px;
+  
+}
+.phone{
+  
+  font-size: 13px;
+    
+  padding: 0.5rem 0.6rem;
+ 
+
+}
+.service{
+  
+  gap: 1rem;
+  
+}
+.service img{
+  max-width: 1rem;
+  max-height: 1rem;
+
+}
+.section1{
+  width: 92%;
+  
+}
+
+.section2 img{
+  width: 13rem;
+ 
+}
+.section2content, .announcement{
+ 
+  max-width: 15rem;
+}
+.announcement{
+  padding:1rem;
+  
+}
+
+
+.announcement h3{
+  font-size: 1rem;
+  color: #25D366;
+} 
+.announcement p, .section2content p{
+  font-size: 1rem;
+ 
+}
+.section2content h2{
+  font-size: 16px;
+}
+.contactsection{
+  padding: 1rem;
+  width: 92%;
+ 
+}
+
+ .section2content a{
+  font-size: 14px;
+  padding: 0.5rem 0.7rem;
+}
+
+.headpastorcontent p{
+  font-size: 1.2rem;
+  line-height: 1.2;
+}
+.leadershipteamcard img{
+  max-width: 8rem;
+  width: 100%;
+  max-height: 10rem;
+  height: 100%;
+  border-radius: 8px
+}
+.leadershipteamcard h3{
+  font-size: 1rem;  }
+  
+.ministries{
+   gap: 1rem;
+}
+.childrenministry, .youthministry, .womenministry, .menministry, .musicministry{
+  gap: 0.6rem;
+  max-width: 20rem;
+  width: 100%;
+  height:10rem;
+  
+  
+}
+.ministries h3{
+  margin-top:6rem;
+  color: white;
+  font-size: 1rem;
+
+}
+.ministries p{
+  color: white;
+  font-size: 0.7rem;
+  line-height: 1.2;
+}
+.ministries summary{
+ 
+  font-size: 0.7rem;
+  line-height: 1.4;
+ 
+}
+ .ministrycontent{
+   padding:1rem 0.5rem ;
+ }
+ .section4{
+  text-align: center;
+  
+}
+  
+}
+
+@media (max-width:760px){
+ .herocontent h1{
+  margin-top:10px ;
+    font-size: clamp(32px, 6vw, 40px);
+  }
+  .heroside2, .herocontent p{
+  max-width: 15rem;
+  width: 100%;
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+.watchlive, .learnmore{
+  font-size: 14px;
+  padding: 0.5rem 0.7rem;
+}
+.section2 img{
+  width: 10rem;
+ 
+}
+.section2content, .announcement{
+  
+  gap: 0.7rem;
+  max-width: 15rem;
+  
+ 
+}
+.announcement{
+   
+ 
+  padding: 1.5rem;
+
+}
+.announcement h3{
+  font-size: 1rem;
+ 
+} 
+.announcement p{
+  font-size: 1rem;
+  line-height: 1.5;
+}
+.headpastor img{
+  max-width: 15rem;
+  
+  max-height: 25rem;
+  
+}
+.headpastorcontent{
+  
+  gap: 0.5rem;
+ 
+}
+.headpastorcontent h2{
+  font-size: 1.3rem;
+}
+.headpastorcontent p{
+ 
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+#contactform input{
+  max-width: 15rem;
+  
+}
+#contactform textarea{
+   max-width: 15rem;
+   min-width: 15rem;
+  
+
+}
+#contactform button{
+  max-width: 15rem;
+  width: 100%;
+}
+
+.contactsection iframe{
+  width: 18rem;
+  
+  height: 15rem;
+  
+}
+.eventcard{
+  
+  width: 30rem;
+
+}
+.eventcard details{
+  
+  width:10rem;
+   
+   
+}
+.eventcard details p{
+  font-size: 1rem;
+   
+}
+  
+}
+@media (max-width: 700px) {
+  .churchlogo {
+max-width: 40px;
+  }
+  .logoname h2{
+font-size: 10px;
+  }
+  .whatsapp{
+  
+  font-size: 10px;
+}
+.whatsapp img, .phone img{
+  width: 10px;
+  height: 10px;
+  
+}
+.phone{
+  
+  font-size: 10px;
+  }
+  header{
+    padding:0.5rem;
+  }
+  .topnav a{
+  
+  font-size: 12px;
+}
+.servicecontent a{
+  font-size: 10px;
+ 
+}
+
+.servicecontent p{
+  font-size: 11px;
+}
+.section1{
+  
+ width: 100%;
+}
+
+.service{
+  
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.servicecontent h3{
+
+font-size: 1rem;
+}
+.section2{
+
+  padding: 1rem;
+
+  
+}
+.contactsection{
+  
+  padding: 1rem;
+  width: 100%;
+}
+
+.gallery{
+ 
+  padding: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1.5rem;
+}
+.gallery img{
+  max-width: 15rem;
+  
+}
+.gallery{
+ 
+  padding: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: 1rem;
+}
+}
+
+@media (max-width: 600px) {
+  header{
+    position:relative;
+     padding:1rem 1.5rem;
+  
+  }
+  .topnav{
+  
+  display:none;
+ 
+}
+
+ .logoname h2{
+  font-size: 14px; 
+}
+.herocontent h1{
+  
+    font-size: clamp(32px, 6vw, 40px);
+  }
+  .herocontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+ .hamburger{
+  display:flex;
+ }
+ 
+.topnav{
+
+    position:absolute;
+    top:85%;
+    left:0;
+    width:100%;
+background: linear-gradient(to right,rgba(5, 10, 55, 0.9),rgba(26, 26, 26, 0.9));     display:flex;
+    flex-direction:column;
+    gap:1.5rem;
+     padding:0.5rem 2rem;
+    transform:translateY(-30px);
+    opacity:0;
+    transition:.4s ease;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+     z-index:1001;
+     text-align: left;
+     text-transform: uppercase;
+     
+
+}
+
+.topnav a{
+    font-size: 18px;
+    width: 100%;
+     padding:0.5rem 2rem;
+      
+
+    
+}
+
+.topnav.show{
+    transform:translateY(0);
+    opacity:1;
+    visibility:visible;
+}
+
+ .hero{
+  flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    gap: 5rem;
+}
+
+
+
+  .heroside2 span{
+    display: block;
+  }
+  .service{
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .section2{
+    gap:2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ministries img{
+    max-height:40rem;
+    height:100%
+  }
+  .ministries{
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 2rem;
+  
+ 
+}
+.childrenministry, .youthministry, .womenministry, .menministry, .musicministry{
+   max-height:40rem;
+    height:100%;
+    
+     
+}
+.headpastor{
+  flex-direction:column;
+}
+.section7{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap:2rem;
+}
+.leadershipteamcard{
+  gap:0.2rem;
+}
+.contactsection{
+  flex-direction:column;
+  gap:2rem;
+}
+.contactsection iframe{
+  width: 20rem;
+  
+}
+.events{
+  
+  padding: 1rem;
+}
+.eventcard{
+  
+  width: 26rem;
+
+}
+.eventcard details{
+  
+  width:10rem;
+   
+   
+}
+.eventcard h3{
+  font-size: 1rem;
+}
+ 
+
+.sermoncard{
+  
+  gap:1rem;
+ 
+}
+.sermoncard p{
+  line-height: 1.5;
+}
+.sermoncard span{
+  
+  font-size:1rem;
+ 
+}
+.sermoncard iframe{
+  width: 100%;
+  max-width: 10rem;
+ 
+
+  }
+ 
+}
+@media (max-width:430px){
+  .eventcard{
+  gap:1rem;
+  width: 22rem;
+
+}
+.eventcard details{
+  
+  width:12rem;
+   
+   
+}
+.events{
+  gap:2rem;
+  padding: 0.2rem;
+}
+.gallery img{
+  max-width: 10rem;
+  
+}
+.logoname{
+  flex-direction: column;
+}
+.servicecontent h3{
+
+font-size: 0.7rem;
+}
+}
